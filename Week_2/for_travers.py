@@ -1,0 +1,18 @@
+# for_travers.py
+
+books = ["Learn You a Haskell", 
+         "The Healthy Programmer",
+         "Code Complete",
+         "The Pragmatic Programmer",
+         "Pro Git",
+         "Introduction to Algorithms",
+         "Concrete Mathematics"]
+
+for book in books:
+    print(book)
+
+start = 0
+
+while start <= len(books) -1:
+    print(books[start])
+    start += 1
